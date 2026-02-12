@@ -20,7 +20,7 @@ def main():
 
     for file_path in sys.argv[1:]:
         board = read_board(file_path)
-        
+
         if board is None:
             print("Error")
             continue
